@@ -64,7 +64,7 @@ export default function Home() {
             </section>
           </section>
         </main>
-        <footer className="bg-black flex flex-col items-center text-center p-4">
+        <footer className="bg-black text-white flex flex-col items-center text-center p-4">
           <p>MataFome: A sua fome, a nossa missão!</p>
           <p className="text-xs">*Tempo de entrega pode variar de acordo com a sua localização.</p>
           <p className="text-xs">**Tempo médio de entrega - 57 min.</p>
