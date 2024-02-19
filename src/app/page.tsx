@@ -55,11 +55,14 @@ export default function Home() {
                   <p>Acesse nosso app e faça seu pedido agora mesmo!</p>
                 </div>
               </div>
-              <div>
-                <h3>Siga-nos nas redes sociais</h3>
-                <Link href={"https://www.instagram.com/matafomedeli/"} target="_blank">
-                  Instagram
-                </Link>
+              <div className="flex">
+                <Image className="mr-2" alt="" src={"/icons/instagramIcon.svg"} width={40} height={40}></Image>
+                <div>
+                  <h3>Siga-nos nas redes sociais</h3>
+                  <Link className="text-pink-300 hover:text-pink-700 duration-500" href={"https://www.instagram.com/matafomedeli/"} target="_blank">
+                    Instagram
+                  </Link>
+                </div>
               </div>
             </section>
           </section>
